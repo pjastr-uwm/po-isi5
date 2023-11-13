@@ -25,9 +25,7 @@ public class Person {
         Person person = (Person) o;
 
         if (age != person.age) return false;
-        if (person.firstName == null) return false; //zalezne od konstruktora i walidacji
         if (!firstName.equals(person.firstName)) return false;
-        if (person.lastName == null) return false; //zalezne od konstruktora i walidacji
         return lastName.equals(person.lastName);
     }
 
