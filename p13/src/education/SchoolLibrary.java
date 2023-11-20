@@ -38,7 +38,7 @@ public class SchoolLibrary extends  Library{
 
     @Override
     public void addBooks(int arg){
-        setBooks(arg);
+        setBooks(getBooks()+arg);
         if (getBooks() > 3000){
             setBooks(3000);
         }

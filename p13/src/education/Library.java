@@ -36,7 +36,7 @@ class Library {
     }
 
     public void setBooks(int books) {
-        if (books >0)
+        if (books > 0)
             this.books = books;
     }
 

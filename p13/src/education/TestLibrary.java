@@ -14,8 +14,9 @@ public class TestLibrary {
         lista.add(new SchoolLibrary("name5", "loc5", 5656,
                 "", -9));
         for(Library elem: lista){
-            System.out.println(elem.toString());
+            System.out.println(elem);
             elem.addBooks(20);
+            System.out.println(elem);
         }
     }
 }
