@@ -66,4 +66,13 @@ public class MusicAlbum {
         result = 31 * result + (ratings != null ? Arrays.hashCode(ratings) : 0);
         return result;
     }
+
+    public void addRating(double newValue){
+        double[] temp = new double[ratings.length+1];
+        for(int i=0;i<ratings.length;i++){
+            temp[i] = ratings[i];
+        }
+        temp[ratings.length] = newValue;
+        ratings = temp;
+    }
 }
