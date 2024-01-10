@@ -1,4 +1,4 @@
-package zadA1;
+package kolekcje.zadA1;
 
 import java.util.ArrayList;
 import java.util.Collection;
